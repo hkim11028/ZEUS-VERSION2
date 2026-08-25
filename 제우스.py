@@ -378,9 +378,3 @@ with tab3:
             except Exception as e:
                 st.error(f"스캔 중 오류가 발생했습니다: {e}")
 
-!wget -q -c -nc https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64 -O /usr/local/bin/cloudflared
-!chmod +x /usr/local/bin/cloudflared
-
-!streamlit run app.py &>/content/logs.txt &
-
-!cloudflared tunnel --url http://localhost:8501
