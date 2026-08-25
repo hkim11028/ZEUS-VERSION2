@@ -3,5 +3,5 @@ yfinance
 Finance-DataReader
 pandas
 numpy
-matplotlib.pyplot
+matplotlib
 datetime
