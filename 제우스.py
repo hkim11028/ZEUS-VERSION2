@@ -7,10 +7,7 @@ Original file is located at
     https://colab.research.google.com/drive/1j1EuOJMt6LQzlo3ElEnq5yFXGI-0irpX
 """
 
-!pip install yfinance
 
-!pip install streamlit -q
-!npm install -g localtunnel -q
 
 Python
 import streamlit as st
