@@ -1,0 +1,7 @@
+streamlit
+yfinance 
+FinanceDataReader
+pandas
+numpy
+matplotlib.pyplot
+datetime
